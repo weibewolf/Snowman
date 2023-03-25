@@ -1,0 +1,25 @@
+Options -Indexes
+
+<FilesMatch "\.(html|htm|php|js|css)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
+<FilesMatch "\.(xml|txt|doc|docx|xls|xlsx|ppt|pptx|pdf|svg)$">
+    Order Allow,Deny
+    Allow from all
+    </FilesMatch>
+    
+    <Directory "Aframe">
+    Order Allow,Deny
+    Deny from all
+    </Directory>
+    
+    <Directory "X3dom">
+    Order Allow,Deny
+    Deny from all
+    </Directory>
+    
+    <Directory "celda_industrial">
+    Order Allow,Deny
+    Deny from all
+    </Directory>
